@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Content with searchKey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header with magic text effect -->
+  <header>
+    <h1 class="magicTitleText">AI Content with SEARCH</h1>
+  </header>
+
+  <!-- Search Queries List -->
+  <section id="searchQueriesList" class="search-queries-container_2">
+    <!-- Search queries will be dynamically added here -->
+  </section>
+
+  <!-- Controls to clear all search queries and generate posts -->
+  <section id="controls">
+    <button id="clearQueriesBtn_2" class="clearQueriesBtn_2">Clear Search</button>
+    <button id="generate-single-post-btn_2" class="generate-single-post-btn_2">Gen. X Post</button>
+  </section>
+
+  <!-- Input Prompt Area for AI -->
+  <div>
+    <textarea id="input-prompt" placeholder="Type something, e.g. 'Write a haiku about Chrome Extensions'" cols="30" rows="5"></textarea>
+    <div>
+      <input type="range" id="temperature" name="temperature" min="0" max="2" step="0.01" />
+      <label for="temperature">Temperature: <span id="label-temperature"></span></label>
+    </div>
+    <div>
+      <input type="range" id="top-k" name="top-k" min="1" max="8" step="1" />
+      <label for="top-k">Top-k: <span id="label-top-k"></span></label>
+    </div>
+    <button id="button-prompt" class="primary" disabled>Run</button>
+    <button id="button-reset" class="secondary" disabled>Reset</button>
+    <div id="response" class="text" hidden></div>
+    <div id="loading" class="text" hidden><span class="blink">...</span></div>
+    <div id="error" class="text" hidden></div>
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
