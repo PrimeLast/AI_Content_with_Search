@@ -1,4 +1,4 @@
-# AI Content Generation Chrome Extension
+# Content Generation with SEARCH Google Chrome Built-in AI 
 
  This extension allows you to track search queries, and generate posts powered by Built-in AI directly in the browser.
  This Chrome extension integrates with the Gemini Nano model using the experimental Prompt API available in Chrome for on-device AI content generation. 
@@ -8,6 +8,25 @@ Take example of anyone using a Desktop or Laptop, they all use a browser for fin
 Everyday millions? billions? of searches are made on the internet. Well Search Provider has huge advantage of generating meaning from the search data. But how can the user create insights on its search history? User browsing the web, may go on serching couple of words, topics in the browser search bar or in seearch engine. at the end of the session, how about the user get extensive actionable summary or report from the browser? Lets say user is trying a online research on web, come across various information sources, data. Learning from the what User has initially wanted to search the web, and which website and the content user has seen, the Buil-in AI can generate thoughtful content, all based on users prefered sources of information, without dumping the search results to user. Giving additional control to user over generating content based on users thinking and sources of data. This is what was in mind when started this project. 
 But for now, lets just use the search queris, and ask the Chrome Built-in AI to generate an X post, to see how your random, unrelated or scrambled search words makes sense.
 
+So the extension monitors the search bar as well as Google search engine search bar to record the keywords entered by user. 
+It stores the search queries
+Chromes built-in Gemini AI Prompt API is used to generate a X(formerly twitter) post based on the search quieries.
+
+## Exampple:
+
+I Googled for these searches:
+local password
+mars
+abcd
+giant ship
+tiger timer
+
+Now I asked Built-in AI to generate X post, here its:
+
+
+
+## API used:
+The Prompt API used as per https://developer.chrome.com/docs/extensions/ai/prompt-api
 
 ## Features
 

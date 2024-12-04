@@ -1,8 +1,8 @@
 {
-  "name": "AI Content with SEARCH",
+  "name": "Content Generation with SEARCH Google Chrome Built-in AI",
   "version": "0.2",
   "manifest_version": 3,
-  "description": "Try Chrome's built-in prompt API for content generation",
+  "description": "Google Chrome Built-in AI",
   "background": {
     "service_worker": "background.js"
   },
@@ -21,6 +21,6 @@
 
       "128": "images/icon128.png"
     },
-    "default_title": "Open AI Content with SEARCH"
+    "default_title": "Content Generation with SEARCH Google Chrome Built-in AI"
   }
 }
